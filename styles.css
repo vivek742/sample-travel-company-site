@@ -1,0 +1,262 @@
+* {
+  margin: 0px;
+  font-family: Arial;
+  border: border-box;
+}
+.navmain {
+  background-color: #22b3c1;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 70px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.navleft {
+  background-image: url("logo.png");
+  height: 35px;
+  width: 200px;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+}
+.navright {
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.navright p:hover {
+  cursor: pointer;
+}
+.hero {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url("Bern.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.herotxt {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 100px;
+}
+.herotxt h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.herotxt p {
+  height: 60px;
+  width: 100%;
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.btn {
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  margin-top: 10px;
+  background: transparent;
+  border: 2px solid #22b3c1;
+  color: #22b3c1;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: #22b3c1;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+.herop3 {
+  background-color: white;
+  height: 150px;
+  width: 90%;
+  margin-top: 100px;
+  border-radius: 95px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #22b3c1;
+}
+.pop {
+  display: flex;
+  font-size: 1.5rem;
+}
+.icon {
+  border: 1px solid #22b3c1;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.btn2 {
+  background-color: #22b3c1;
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  margin-top: 10px;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.btn2:hover {
+  background-color: #6ad3dc;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+.herop3 p {
+  font-size: 20px;
+  color: #a0a2a2;
+}
+.part2 {
+  background-color: black;
+  height: 1100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.section-heading {
+  height: 120px;
+  width: 520px;
+  padding-top: 100px;
+}
+.section-heading h2 {
+  color: #5e5f5f;
+  font-size: 2.2rem;
+  margin-left: 110px;
+}
+.section-info {
+  width: 700px;
+  height: 230px;
+  margin-left: 110px;
+  margin-top: 30px;
+  display: flex;
+  border-bottom: 1.5px solid rgb(175, 175, 175);
+}
+.infoimg {
+  height: 174px;
+  width: 170px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.infotxt {
+  display: flex;
+  gap: 200px;
+  width: 500px;
+}
+.section-info h4 {
+  font-size: 25px;
+  margin: 4px 0px 5px;
+  color: #5e5f5f;
+}
+.section-info span {
+  font-size: 20px;
+  color: #afafaf;
+}
+.section-info button {
+  height: 50px;
+  width: 130px;
+  margin-top: 4px;
+  margin-left: 20px;
+  border-radius: 30px;
+  background-color: #22b3c1;
+  border: none;
+  font-size: 15px;
+  color: white;
+}
+.btn3:hover {
+  cursor: pointer;
+  background-color: #11676f;
+  transition: 0.3s ease-out;
+}
+.des {
+  font-size: 20px;
+  font-weight: 400;
+  width: 490px;
+  height: 90px;
+  margin-top: 20px;
+  margin-right: 10px;
+  border-bottom: 1.5px solid rgb(175, 175, 175);
+}
+.des p {
+  margin-bottom: 10px;
+  color: #afafaf;
+}
+.info {
+  display: flex;
+  gap: 30px;
+  height: 60px;
+  width: 500px;
+  color: white;
+  font-size: 1.2rem;
+}
+.info div {
+  display: flex;
+}
+.info-main {
+  align-items: center;
+  gap: 25px;
+}
+.div-main {
+  gap: 5px;
+  color: #5e5f5f;
+}
+.foot {
+  margin-left: 10px;
+  margin-right: 10px;
+
+  color: white;
+}
+.foot1 {
+  background: url("back.jpg") rgba(34, 179, 193, 1);
+  background-size: cover;
+  background-blend-mode: overlay;
+
+  display: flex;
+  height: 200px;
+  line-height: 45px;
+  padding-top: 90px;
+}
+.txt h2 {
+  font-size: 35px;
+  margin-left: 100px;
+}
+.txt h4 {
+  font-size: 20px;
+  margin-left: 100px;
+}
+.foot1 button {
+  height: 50px;
+  width: 180px;
+  font-size: 18px;
+  border-radius: 80px;
+  border: 1px solid white;
+  background-color: rgba(34, 179, 193, 0.3);
+  color: white;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+.btn4:hover {
+  background-color: white;
+  color: #22b3c1;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
